@@ -394,6 +394,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "lcd-lcm1602-i2c"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "77e9f3f5c1fbb71ef8f9de66c2b8c80eea4ad1c4bd27a03cee3baabdb6c43e37"
+dependencies = [
+ "embedded-hal 1.0.0",
+ "ufmt",
+ "ufmt-write",
+]
+
+[[package]]
 name = "litemap"
 version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -411,6 +422,7 @@ version = "0.1.0"
 dependencies = [
  "arduino-hal",
  "embedded-hal 1.0.0",
+ "lcd-lcm1602-i2c",
  "nb 1.1.0",
  "panic-halt",
  "ufmt",
